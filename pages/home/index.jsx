@@ -1,11 +1,10 @@
 import ProjectDesc from "@/components/projectDesc";
 import React from "react";
 import ImageTitle from "@/components/imageTitle";
-import Hero_2 from "@/components/hero/hero2";
+import Hero_2 from "@/components/hero";
 
 const Home_1 = () => {
-  const bgImage = "/images/page-title/knowledge_base_banner.jpg";
-  const banner = "/images/user/banner.jpg";
+  const banner = "/images/banner.jpg";
   return (
     <div className="">
       <Hero_2 />

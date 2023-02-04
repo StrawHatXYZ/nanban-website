@@ -8,21 +8,21 @@ const footer = () => {
 
       <footer className="dark:bg-jacarta-900 page-footer bg-white">
         <div className="container">
-          <div className="grid grid-cols-6 gap-x-7 gap-y-14 pt-24 pb-12 md:grid-cols-12">
+          <div className="grid grid-cols-3 gap-x-7  md:gap-y-14 pt-12 pb-12 md:grid-cols-12">
             <div className="col-span-3 md:col-span-4">
               {/* <!-- Logo --> */}
               <Link href="#">
-                <a className="mb-6 inline-block">
+                <a className="mb-3 inline-block">
                   <div className="text-2xl font-bold">Nanban Foundation</div>
                 </a>
               </Link>
-              <p className="dark:text-jacarta-300 mb-12">
+              <p className="dark:text-jacarta-300 mb-8">
                 Mothers for mother nature
               </p>
             </div>
 
-            <div className="col-span-full sm:col-span-3 md:col-span-2 md:col-start-7">
-              <ul className="dark:text-jacarta-300 flex flex-col space-y-6">
+            <div className="col-span-full sm:col-span-3 md:col-span-2 mb-5 md:col-start-7">
+              <ul className="dark:text-jacarta-300 flex flex-col space-y-5 md:space-y-6">
                 <li>
                   <Link href="#">
                     <a className="hover:text-accent dark:hover:text-white">
@@ -39,8 +39,8 @@ const footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-span-full sm:col-span-3 md:col-span-2">
-              <ul className="dark:text-jacarta-300 flex flex-col space-y-6">
+            <div className="col-span-full sm:col-span-3 mb-5 md:col-span-2">
+              <ul className="dark:text-jacarta-300 flex flex-col space-y-5 md:space-y-6">
                 <li>
                   <Link href="#">
                     <a className="hover:text-accent dark:hover:text-white">
@@ -58,7 +58,14 @@ const footer = () => {
               </ul>
             </div>
             <div className="col-span-full sm:col-span-3 md:col-span-2">
-              <ul className="dark:text-jacarta-300 flex flex-col space-y-7">
+              <ul className="dark:text-jacarta-300 flex flex-col space-y-5 md:space-y-7">
+                <li>
+                  <Link href="#">
+                    <a className="hover:text-accent dark:hover:text-white">
+                      Dontate and get a NFT
+                    </a>
+                  </Link>
+                </li>
                 <li>
                   <div className="flex space-x-5">
                     {socialIcons.map((item) => {
@@ -78,13 +85,6 @@ const footer = () => {
                       );
                     })}
                   </div>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a className="hover:text-accent dark:hover:text-white">
-                      Dontate and get a NFT
-                    </a>
-                  </Link>
                 </li>
               </ul>
             </div>

@@ -29,11 +29,11 @@ const Hero_2 = () => {
             <p className="dark:text-jacarta-200 mb-8 text-lg">
               Buy and sell NFTs from the worlds top artists
             </p>
-            <div className="inline-flex space-x-4">
+            <div className="md:inline-flex space-x-4 space-y-12 md:space-y-0">
               <div>
                 <Link href="">
                   <a className="bg-accent shadow-accent-volume hover:bg-accent-dark w-36 rounded-full py-3 px-8 text-center font-semibold text-white transition-all">
-                    Donate crypto
+                    Donate
                   </a>
                 </Link>
               </div>

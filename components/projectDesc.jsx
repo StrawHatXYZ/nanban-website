@@ -3,13 +3,13 @@ const ImageComponent = () => {
     <div className="lg:w-[55%]">
       <div className="relative">
         <img
-          src="/images/about/story.jpg"
+          src="/images/project.jpg"
           width="200"
           height="200"
           className="mx-auto mt-8 w-[80%] rotate-[8deg] rounded-[10rem]"
         />
         <img
-          src="/images/hero/3D_elements.png"
+          src="/images/3D_elements.png"
           alt=""
           className="animate-fly absolute top-0"
         />
@@ -51,14 +51,6 @@ export default function ProjectDesc({ left }) {
   return (
     <div>
       <section className="dark:bg-jacarta-800 relative py-24">
-        <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-          <img
-            src="/images/gradient_light.jpg"
-            alt="gradient"
-            className="h-full w-full"
-          />
-        </picture>
-
         <div className="container">
           {left ? (
             <div className="lg:flex lg:justify-between">
