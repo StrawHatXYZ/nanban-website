@@ -5,14 +5,14 @@ const Hero_2 = () => {
   return (
     <>
       {/* <!-- Hero --> */}
-      <section className="hero relative py-20 md:pt-32 h-screen">
+      <section className="hero relative h-screen">
         <picture className="pointer-events-none absolute inset-x-0 top-0 -z-10 dark:hidden">
-          <figure className="h-[630px] w-full">
+          <figure className="h-screen w-full">
             <Image src="/images/gradient.jpg" alt="gradient" layout="fill" />
           </figure>
         </picture>
         <picture className="pointer-events-none absolute inset-x-0 top-0 -z-10 hidden dark:block">
-          <figure className="h-[630px] w-full">
+          <figure className="h-screen w-full">
             <Image
               src="/images/gradient_dark.jpg"
               alt="gradient dark"
@@ -21,7 +21,7 @@ const Hero_2 = () => {
           </figure>
         </picture>
 
-        <div className="container flex flex-col justify-between">
+        <div className="container pt-32 flex flex-col justify-between">
           <div className="py-24 text-center">
             <h1 className="text-jacarta-700 font-display mb-6 text-5xl dark:text-white lg:text-6xl xl:text-7xl">
               Reviving the earth, restoring the hope
