@@ -8,10 +8,10 @@ const Home_1 = () => {
   return (
     <div className="">
       <Hero_2 />
-      <ProjectDesc left={true} />
-      <ProjectDesc left={false} />
+      <ProjectDesc left={true} title={"Planting Trees"} />
+      <ProjectDesc left={false} title={"Lake Rejuvenation"} />
       <ImageTitle text="Nanban Founation" image={banner} />
-      <ProjectDesc left={true} />
+      <ProjectDesc left={true} title={"Organic and Sustainable Farming"}  />
     </div>
   );
 };

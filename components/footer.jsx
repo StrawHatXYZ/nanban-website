@@ -13,11 +13,11 @@ const footer = () => {
               {/* <!-- Logo --> */}
               <Link href="#">
                 <a className="mb-3 inline-block">
-                  <div className="text-2xl font-bold">Nanban Foundation</div>
+                  <div className="text-2xl font-bold">Selah Earth </div>
                 </a>
               </Link>
               <p className="dark:text-jacarta-300 mb-8">
-                Mothers for mother nature
+              Reviving the earth, restoring the hope
               </p>
             </div>
 
@@ -92,7 +92,7 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 pb-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© 2023 Nanban Foundation</span>
+              <span>© 2023 Selah Earth</span>
             </span>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">

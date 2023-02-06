@@ -50,7 +50,7 @@ export default function Header01() {
                   className="rounded-full"
                 />
               </a>
-              <div className="text-3xl font-bold">Nanban Foundation</div>
+              <div className="text-3xl font-bold">Selah Earth</div>
             </div>
           </Link>
 

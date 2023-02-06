@@ -18,11 +18,11 @@ const ImageComponent = () => {
   );
 };
 
-const Description = () => {
+const Description = ({title}) => {
   return (
     <div className="py-20 lg:w-[45%] lg:pl-16">
       <h2 className="text-jacarta-700 font-display mb-6 text-2xl dark:text-white">
-        Project Title
+        {title}
       </h2>
       <p className="dark:text-jacarta-300 mb-8 text-lg leading-normal">
         Project Tag line - Sed ut perspiciatis unde omnis iste natus error sit
@@ -47,7 +47,7 @@ const Description = () => {
   );
 };
 
-export default function ProjectDesc({ left }) {
+export default function ProjectDesc({ left,title }) {
   return (
     <div>
       <section className="dark:bg-jacarta-800 relative py-24">
@@ -55,12 +55,12 @@ export default function ProjectDesc({ left }) {
           {left ? (
             <div className="lg:flex lg:justify-between">
               <ImageComponent />
-              <Description />
+              <Description title={title} />
             </div>
           ) : (
             <div className="lg:flex lg:justify-between">
-              <Description />
-              <ImageComponent />
+              <Description title={title} />
+              <ImageComponent  />
             </div>
           )}
         </div>
