@@ -21,10 +21,10 @@ const Hero_2 = () => {
           </figure>
         </picture>
 
-        <div className="container flex flex-col justify-between h-full">
+        <div className="container flex flex-col justify-between">
           <div className="py-24 text-center">
             <h1 className="text-jacarta-700 font-display mb-6 text-5xl dark:text-white lg:text-6xl xl:text-7xl">
-             Reviving the earth, restoring the hope
+              Reviving the earth, restoring the hope
             </h1>
             {/* <p className="dark:text-jacarta-200 mb-8 text-lg">
               Buy and sell NFTs from the worlds top artists

@@ -18,7 +18,7 @@ const ImageComponent = () => {
   );
 };
 
-const Description = ({title}) => {
+const Description = ({ title }) => {
   return (
     <div className="py-20 lg:w-[45%] lg:pl-16">
       <h2 className="text-jacarta-700 font-display mb-6 text-2xl dark:text-white">
@@ -47,10 +47,17 @@ const Description = ({title}) => {
   );
 };
 
-export default function ProjectDesc({ left,title }) {
+export default function ProjectDesc({ left, title }) {
   return (
     <div>
-      <section className="dark:bg-jacarta-800 relative py-24">
+      <section className="dark:bg-jacarta-800 relative  lg:py-24">
+        <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+          <img
+            src="/images/gradient_light.jpg"
+            alt="gradient"
+            className="h-full w-full"
+          />
+        </picture>
         <div className="container">
           {left ? (
             <div className="lg:flex lg:justify-between">
@@ -58,9 +65,9 @@ export default function ProjectDesc({ left,title }) {
               <Description title={title} />
             </div>
           ) : (
-            <div className="lg:flex lg:justify-between">
+            <div className="lg:flex lg:justify-between pb-20 lg:pb-0">
               <Description title={title} />
-              <ImageComponent  />
+              <ImageComponent />
             </div>
           )}
         </div>

@@ -6,7 +6,7 @@ const footer = () => {
     <>
       {/* <!-- Footer --> */}
 
-      <footer className="dark:bg-jacarta-900 page-footer bg-white">
+      <footer className="dark:bg-jacarta-900 page-footer py-6 bg-white">
         <div className="container">
           <div className="grid grid-cols-3 gap-x-7  md:gap-y-14 pt-12 pb-12 md:grid-cols-12">
             <div className="col-span-3 md:col-span-4">
@@ -17,7 +17,7 @@ const footer = () => {
                 </a>
               </Link>
               <p className="dark:text-jacarta-300 mb-8">
-              Reviving the earth, restoring the hope
+                Reviving the earth, restoring the hope
               </p>
             </div>
 
